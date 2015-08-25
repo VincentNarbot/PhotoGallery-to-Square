@@ -18,7 +18,7 @@ class PhotoGalleryCropping : NSObject {
 
         if width > height {
             //Landscape
-            positionX = -((width - height) / 2.0)
+            positionX = -((height - width) / 2.0)
             width = height
         } 
         else if width < height {
